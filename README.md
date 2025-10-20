@@ -7,7 +7,7 @@
 ---
 
 ## 📁 Repository Structure
-
+```
 AI-Clustering-Algorithms/
 │
 ├── 01_KNN/
@@ -21,7 +21,7 @@ AI-Clustering-Algorithms/
 └── 03_Hierarchical/
 ├── hierarchical.drawio.png
 ├── hierarchical_clustering.ipynb
-
+```
 
 ---
 
@@ -49,17 +49,17 @@ AI-Clustering-Algorithms/
 ## 🔁 Flowcharts (Core Logic)
 
 ### 🟦 1. KNN
-<img src="01_KNN/knn_flowchart.png" width="600">
+<img src="01_KNN/knn.drawio.png" width="600">
 
 | **KNN** | 데이터 입력 → 거리 계산 → K개 이웃 선택 → 다수결 분류 → 예측 출력 |
 
 ### 🟨 2. K-Means
-<img src="02_KMeans/kmeans_flowchart.png" width="600">
+<img src="02_KMeans/kmeans.drawio.png" width="600">
 
 | **K-Means** | 데이터 입력 → K 설정 → 중심 초기화 → [할당↔갱신 반복] → 수렴 시 결과 출력 |
 
 ### 🟩 3. Hierarchical Clustering
-<img src="03_Hierarchical/hierarchical_flowchart.png" width="600">
+<img src="03_Hierarchical/hierarchical.drawio.png" width="600">
 
 | **Hierarchical Clustering** | 거리 행렬 계산 → 가장 가까운 두 군집 병합 → 새 거리 갱신 → 군집 수 ≤ K일 때 종료 |
 
