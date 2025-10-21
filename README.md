@@ -95,7 +95,7 @@ AI-Clustering-Algorithms/
 | **거리 계산** | 거리 계산 | `euclidean_sq(X, centers)` | 거리 제곱합 기반 최소 거리 탐색 |
 | **군집 할당** | Assignment 단계 | `labels = np.argmin(dist2, axis=1)` | 각 점이 가장 가까운 중심에 할당됨 |
 | **중심 갱신** | Update 단계 | `new_centers[j] = X[mask].mean(axis=0)` | 각 군집의 평균으로 중심 재계산 |
-| **수렴 조건** | 수렴 조건? | `if shift < tol: break` | 중심 이동량이 일정 기준 미만이면 반복 종료 |
+| **수렴 조건** | 수렴 조건 | `if shift < tol: break` | 중심 이동량이 일정 기준 미만이면 반복 종료 |
 
 ---
 
