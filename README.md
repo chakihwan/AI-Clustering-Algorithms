@@ -2,7 +2,7 @@
 
 이 프로젝트는 **K-Nearest Neighbors (KNN)**, **K-Means**, **계층적 군집화 (Hierarchical Clustering)**  
 세 가지 대표적인 머신러닝 알고리즘을 직접 구현하고 시각화한 실습 자료입니다.  
-모든 알고리즘은 **Flowchart → From-Scratch 코드 → 시각화 → 코드 리뷰** 순으로 구성되어 있습니다.
+모든 알고리즘은 **Flowchart → From-Scratch 코드 → 시각화** 순으로 구성되어 있습니다.
 
 ---
 
